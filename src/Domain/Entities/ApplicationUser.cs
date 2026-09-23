@@ -7,6 +7,6 @@ public class ApplicationUser : IdentityUser<Guid>
     public string FirstName { get; set; } = default!;
     public string LastName { get; set; } = default!;
 
-    public ICollection<Apartment> Apartments { get; set; } = default!;
-    public ICollection<Reservation> Reservations { get; set; } = default!;
+    public required ICollection<Apartment> Apartments { get; set; }
+    public required ICollection<Reservation> Reservations { get; set; }
 }

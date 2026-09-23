@@ -14,5 +14,5 @@ public class Reservation
     public int Guests { get; set; }
     public ReservationStatus Status { get; set; }
     public decimal TotalPrice { get; set; }
-    public DateTimeOffset CreatedAt { get; set; } = DateTimeOffset.UtcNow;
+    public DateTimeOffset CreatedAt { get; set; } 
 }
