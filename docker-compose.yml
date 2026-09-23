@@ -13,7 +13,7 @@ services:
       - "${POSTGRES_PORT}:5432"
 
     volumes:
-      - postgres18_data-restaurants:/var/lib/postgresql
+      - postgres18_data-residentials:/var/lib/postgresql
 
     healthcheck:
       test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER} -d ${POSTGRES_DB}"]
@@ -22,4 +22,4 @@ services:
       retries: 5
 
 volumes:
-  postgres18_data-restaurants:
+  postgres18_data-residentials:

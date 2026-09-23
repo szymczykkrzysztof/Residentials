@@ -1,5 +1,3 @@
-
-
 using Persistence.Extensions;
 
 var builder = WebApplication.CreateBuilder(args);
