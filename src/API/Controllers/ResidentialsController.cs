@@ -4,6 +4,6 @@ namespace API.Controllers;
 
 [ApiController]
 [Route("api/residentials")]
-public class ResidentialController : ControllerBase
+public class ResidentialsController : ControllerBase
 {
 }
